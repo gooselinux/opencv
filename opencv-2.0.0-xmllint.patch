@@ -1,0 +1,133 @@
+diff -up OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_eyepair_big.xml.xmllint OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_eyepair_big.xml
+--- OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_eyepair_big.xml.xmllint	2010-06-08 18:02:10.079892573 +0200
++++ OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_eyepair_big.xml	2010-06-08 18:02:57.144766916 +0200
+@@ -1,5 +1,5 @@
+ <?xml version="1.0"?>
+-<!----------------------------------------------------------------------------
++<!--
+   45x11 Eye pair detector computed with 7000 positive samples
+ 
+ //////////////////////////////////////////////////////////////////////////
+@@ -81,7 +81,7 @@ More information can be found at http://
+ COMMERCIAL USE:
+ If you have any commercial interest in this work please contact 
+ mcastrillon@iusiani.ulpgc.es
+------------------------------------------------------------------------->
++-->
+ <opencv_storage>
+ <parojos_7000pos_15000neg_45x11 type_id="opencv-haar-classifier">
+   <size>
+diff -up OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_eyepair_small.xml.xmllint OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_eyepair_small.xml
+--- OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_eyepair_small.xml.xmllint	2010-06-08 18:03:39.958767597 +0200
++++ OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_eyepair_small.xml	2010-06-08 18:03:58.396891809 +0200
+@@ -1,5 +1,5 @@
+ <?xml version="1.0"?>
+-<!----------------------------------------------------------------------------
++<!--
+   22x5 Eye pair detector computed with 7000 positive samples
+ 
+ //////////////////////////////////////////////////////////////////////////
+@@ -80,7 +80,7 @@ More information can be found at http://
+ COMMERCIAL USE:
+ If you have any commercial interest in this work please contact 
+ mcastrillon@iusiani.ulpgc.es
+------------------------------------------------------------------------->
++-->
+ 
+ <opencv_storage>
+ <parojos type_id="opencv-haar-classifier">
+diff -up OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_lefteye.xml.xmllint OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_lefteye.xml
+--- OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_lefteye.xml.xmllint	2010-06-08 18:04:16.814767676 +0200
++++ OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_lefteye.xml	2010-06-08 18:04:35.558891935 +0200
+@@ -1,5 +1,5 @@
+ <?xml version="1.0"?>
+-<!----------------------------------------------------------------------------
++<!--
+   18x12 Left eye (in the image) detector computed with 7000 positive samples
+ 
+ //////////////////////////////////////////////////////////////////////////
+@@ -80,7 +80,7 @@ More information can be found at http://
+ COMMERCIAL USE:
+ If you have any commercial interest in this work please contact 
+ mcastrillon@iusiani.ulpgc.es
+------------------------------------------------------------------------->
++-->
+ <opencv_storage>
+ <ojoI type_id="opencv-haar-classifier">
+   <size>
+diff -up OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_mouth.xml.xmllint OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_mouth.xml
+--- OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_mouth.xml.xmllint	2010-06-08 18:05:12.886892487 +0200
++++ OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_mouth.xml	2010-06-08 18:05:28.702891776 +0200
+@@ -1,5 +1,5 @@
+ <?xml version="1.0"?>
+-<!----------------------------------------------------------------------------
++<!--
+   25x15 Mouth detector computed with 7000 positive samples
+ 
+ //////////////////////////////////////////////////////////////////////////
+@@ -80,7 +80,7 @@ More information can be found at http://
+ COMMERCIAL USE:
+ If you have any commercial interest in this work please contact 
+ mcastrillon@iusiani.ulpgc.es
+------------------------------------------------------------------------->
++-->
+ <opencv_storage>
+ <Boca_17stages type_id="opencv-haar-classifier">
+   <size>
+diff -up OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_nose.xml.xmllint OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_nose.xml
+--- OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_nose.xml.xmllint	2010-06-08 18:05:47.464892325 +0200
++++ OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_nose.xml	2010-06-08 18:06:02.504891957 +0200
+@@ -1,5 +1,5 @@
+ <?xml version="1.0"?>
+-<!----------------------------------------------------------------------------
++<!--
+   18x15 Nose detector computed with 7000 positive samples
+ 
+ //////////////////////////////////////////////////////////////////////////
+@@ -80,7 +80,7 @@ More information can be found at http://
+ COMMERCIAL USE:
+ If you have any commercial interest in this work please contact 
+ mcastrillon@iusiani.ulpgc.es
+------------------------------------------------------------------------->
++-->
+ <opencv_storage>
+ <classifier_Nariz_20stages type_id="opencv-haar-classifier">
+   <size>
+diff -up OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_righteye.xml.xmllint OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_righteye.xml
+--- OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_righteye.xml.xmllint	2010-06-08 18:06:14.806892210 +0200
++++ OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_righteye.xml	2010-06-08 18:06:30.691891964 +0200
+@@ -1,5 +1,5 @@
+ <?xml version="1.0"?>
+-<!----------------------------------------------------------------------------
++<!--
+   18x12 Right eye (in the image) detector computed with 7000 positive samples
+ 
+ //////////////////////////////////////////////////////////////////////////
+@@ -80,7 +80,7 @@ More information can be found at http://
+ COMMERCIAL USE:
+ If you have any commercial interest in this work please contact 
+ mcastrillon@iusiani.ulpgc.es
+------------------------------------------------------------------------->
++-->
+ 
+ <opencv_storage>
+ <ojoD type_id="opencv-haar-classifier">
+diff -up OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_upperbody.xml.xmllint OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_upperbody.xml
+--- OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_upperbody.xml.xmllint	2010-06-08 18:06:44.950892299 +0200
++++ OpenCV-2.0.0/data/haarcascades/haarcascade_mcs_upperbody.xml	2010-06-08 18:06:59.175891972 +0200
+@@ -1,5 +1,5 @@
+ <?xml version="1.0"?>
+-<!----------------------------------------------------------------------------
++<!--
+   22x20 Head and shoulders detector 
+ 
+ //////////////////////////////////////////////////////////////////////////
+@@ -78,7 +78,7 @@ More information can be found at http://
+ COMMERCIAL USE:
+ If you have any commercial interest in this work please contact 
+ mcastrillon@iusiani.ulpgc.es
+------------------------------------------------------------------------->
++-->
+ <opencv_storage>
+ <HS type_id="opencv-haar-classifier">
+   <size>
